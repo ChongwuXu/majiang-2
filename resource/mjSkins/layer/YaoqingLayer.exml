@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="YaoqingLayer" xmlns:e="http://ns.egret.com/eui" xmlns:game="game.*" xmlns:w="http://ns.egret.com/wing" width="1280" height="738">
+	<e:Group id="m_gopOwner" scaleX="1" scaleY="1" x="423" y="276">
+		<game:Button id="m_btnJieSan" label="" x="224" y="0" scaleX="1" scaleY="1">
+		<game:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="jiesan_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</game:skinName>
+		</game:Button>
+		<game:Button id="m_btnYaoQing" label="" y="94" x="0" scaleX="1" scaleY="1">
+		<game:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="yaoqing_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</game:skinName>
+		</game:Button>
+		<game:Button id="m_btnLeval" label="" y="94" x="226" scaleX="1" scaleY="1">
+		<game:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="levalRoom_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</game:skinName>
+		</game:Button>
+		<game:Button id="m_btnFuZhi" label="" x="0" y="0" scaleX="1" scaleY="1">
+		<game:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="fuzhiroom_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</game:skinName>
+		</game:Button>
+	</e:Group>
+	<e:Group id="m_gopNotOwner" x="328" y="323">
+		<game:Button id="m_btnYaoQingNot" label="" x="206" scaleX="1" scaleY="1">
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="yaoqing_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</game:Button>
+		<game:Button id="m_btnFuZhiNot" label="" scaleX="1" scaleY="1" x="0">
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="fuzhiroom_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</game:Button>
+		<game:Button id="m_btnLevalNot" label="" x="416" scaleX="1" scaleY="1">
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="levalRoom_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</game:Button>
+	</e:Group>
+</e:Skin>

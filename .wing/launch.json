@@ -1,0 +1,30 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Wing 内置播放器调试",
+			"type": "chrome",
+			"request": "launch",
+			"file": "index.html",
+			"runtimeExecutable": "${execPath}",
+			"useBuildInServer": true,
+			"sourceMaps": true,
+			"webRoot": "${workspaceRoot}",
+			"preLaunchTask":"build",
+			"port":5404
+		},
+		{
+			"name": "使用本机 Chrome 调试",
+			"type": "chrome",
+			"request": "launch",
+			"runtimeExecutable":"C:\\Users\\win7\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe",
+			"file": "index.html",
+			"useBuildInServer": true,
+			"sourceMaps": true,
+			"webRoot": "${workspaceRoot}",
+			"preLaunchTask":"build",
+			"userDataDir":"${tmpdir}",
+			"port":5183
+		}
+	]
+}

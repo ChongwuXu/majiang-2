@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoginScene" width="1280" height="738" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:game="game.*">
+	<e:Image source="login_bg_2_png"/>
+	<e:Image source="background_jpg" x="-3.03" y="1.52"/>
+	<game:Button id="m_btnLogin" label="" y="464" x="486">
+		<game:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="otherlogon1_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</game:skinName>
+	</game:Button>
+	<e:Group id="m_btnAcceptXieYi" x="496.5" y="599.79">
+		<e:Image id="m_imgNotAccect" source="logonscene_register_cb_fuxuan_1_png"/>
+		<e:Image id="m_imgAccect" source="logonscene_register_cb_fuxuan_2_png"/>
+	</e:Group>
+	<e:Image id="m_btnXieYi" source="UserAgreement_png" x="566.54" y="615.38"/>
+</e:Skin>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DeskCardLayer" width="1280" height="738" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:game="game.*">
+	<e:Image source="playBk_png" x="2.5" visible="false"/>
+	<e:Group id="m_gopDown" width="410" x="299.18" y="432" anchorOffsetX="0" anchorOffsetY="0" height="209">
+	</e:Group>
+	<e:Group width="410" x="564.54" y="85.5" anchorOffsetX="0" anchorOffsetY="0" height="209">
+		<e:Group id="m_gopUp" right="0"/>
+	</e:Group>
+	<e:Group width="264.67" x="300.5" y="90.18" anchorOffsetX="0" anchorOffsetY="0" height="335.67">
+		<e:Group id="m_gopLeft" right="0" top="0" bottom="0">
+		</e:Group>
+	</e:Group>
+	<e:Group width="264.67" x="712.5" y="301.18" anchorOffsetX="0" anchorOffsetY="0" height="335.67">
+		<e:Group id="m_gopRight" height="2" x="1" bottom="0"/>
+	</e:Group>
+	<game:Direction id="m_oDirection" width="20" height="20" x="573" y="297" skinName="Direction"/>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DeskCard" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="mjoutDown_png" anchorOffsetX="0" width="49" anchorOffsetY="0" height="75" scaleY="-1" y="75"/>
+	<e:Group width="32" height="60" x="9" y="13" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Label id="m_labName" text="一万" x="6.33" y="1.67" fontFamily="SimHei" textColor="0x000000" anchorOffsetX="0" width="21" size="20" anchorOffsetY="0" height="56" verticalAlign="middle"/>
+	</e:Group>
+</e:Skin>

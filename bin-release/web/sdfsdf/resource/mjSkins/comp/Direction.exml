@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Direction" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="games_res_set_timer_bg_png" y="8" x="8"/>
+	<e:Image source="games_res_set_timer_bgbox_png"/>
+	<e:Image source="games_res_set_timer_bgline_png" x="9" y="9"/>
+	<e:Image source="games_res_set_timer_timerbg_png" x="29" y="29"/>
+	<e:Image id="m_imgLightDown" source="games_res_set_timer_wind_light_png" x="21" y="101"/>
+	<e:Image id="m_imgLightLeft" source="games_res_set_timer_wind_light_png" x="30" y="20" rotation="90" width="96"/>
+	<e:Image id="m_imgLightUp" source="games_res_set_timer_wind_light_png" x="115" y="31" rotation="180" width="96"/>
+	<e:Image id="m_imgLightRight" source="games_res_set_timer_wind_light_png" x="102" y="113" rotation="-90"/>
+	<e:Image id="m_imgDirDown" x="58" y="103" source="games_res_set_timer_location_2_png"/>
+	<e:Image id="m_imgDirRight" x="105" y="56" source="games_res_set_timer_location_1_png"/>
+	<e:Image id="m_imgDirUp" x="55" y="14" source="games_res_set_timer_location_4_png"/>
+	<e:Image id="m_imgDirLeft" source="games_res_set_timer_location_3_png" x="13" y="59"/>
+</e:Skin>

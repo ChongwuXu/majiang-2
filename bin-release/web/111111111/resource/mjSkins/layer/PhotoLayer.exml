@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PhotoLayer" width="1280" height="738" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:game="game.*">
+	<e:Image source="playBk_png" x="-2" visible="false"/>
+	<e:Group id="m_gopUp" y="26" x="560" name="m_gop0">
+		<game:Photo id="m_oPhotoUp" width="161" height="188" name="m_oPhoto0" skinName="Photo"/>
+		<e:Image id="m_imgReadyUp" source="ready_png" y="195" scaleX="1" scaleY="1" x="54" name="m_imgReady0"/>
+	</e:Group>
+	<e:Group id="m_gopDown" y="518" x="560" name="m_gop2">
+		<e:Image id="m_imgReadyDown" source="ready_png" x="164" y="85" name="m_imgReady2"/>
+		<game:Photo id="m_oPhotoDown" width="161" height="188" scaleX="1" scaleY="1" skinName="Photo" name="m_oPhoto2"/>
+	</e:Group>
+	<e:Group id="m_gopLeft" x="92" y="275" name="m_gop1">
+		<game:Photo id="m_oPhotoLeft" width="161" height="188" scaleX="1" scaleY="1" name="m_oPhoto1" skinName="Photo"/>
+		<e:Image id="m_imgReadyLeft" source="ready_png" x="168" y="65" name="m_imgReady1"/>
+	</e:Group>
+	<e:Group id="m_gopRight" x="1014" y="276" name="m_gop3">
+		<game:Photo id="m_oPhotoRight" width="161" height="188" scaleX="1" scaleY="1" skinName="Photo" name="m_oPhoto3"/>
+		<e:Image id="m_imgReadyRight" source="ready_png" x="-46" y="75" name="m_imgReady3"/>
+	</e:Group>
+	<game:Button id="m_btnReady" label="" x="802" y="582">
+		<game:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="cancelReady_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</game:skinName>
+	</game:Button>
+</e:Skin>

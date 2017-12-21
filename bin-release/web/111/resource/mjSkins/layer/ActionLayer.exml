@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActionnLayer" width="1280" height="738" xmlns:e="http://ns.egret.com/eui" xmlns:game="game.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="810.67" height="200" x="381.2" y="461" anchorOffsetX="0">
+		<e:Image id="m_btnHu" source="hu_png" x="444.42" scaleX="1" scaleY="1"/>
+		<e:Image id="m_btnGang" source="gang_png" x="436" scaleX="1" scaleY="1"/>
+		<e:Image id="m_btnPeng" source="peng_png" x="272" scaleX="1" scaleY="1"/>
+		<e:Image id="m_btnChi" source="eat_png" x="272.07" scaleX="1" scaleY="1"/>
+		<game:Button id="m_btnCancel" label="过" x="668.8" y="28.5"/>
+	</e:Group>
+	<e:Group id="m_gopCards" y="348.15" right="180">
+		<game:Button id="m_btnBack" label="返回" x="-17" y="2" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

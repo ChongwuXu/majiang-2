@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HandCardLayer" width="1280" height="738" xmlns:e="http://ns.egret.com/eui" xmlns:game="game.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="playBk_png" x="2.85" y="-0.19" visible="false"/>
+	<e:Group id="m_gopDown" x="59.11" y="604.87" width="1066" name="m_gop2">
+	</e:Group>
+	<e:Group id="m_gopUp" width="560" name="m_gop2" x="526.3">
+	</e:Group>
+	<e:Group id="m_gopLeft" x="170.22" y="193.39" name="m_gop2" height="210">
+	</e:Group>
+	<e:Group id="m_gopRight" x="1106.51" y="501.98" name="m_gop2">
+	</e:Group>
+</e:Skin>

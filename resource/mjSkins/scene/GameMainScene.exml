@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameMainScene" width="1280" height="738" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:game="game.*">
+	<e:Image source="playBk_png" x="-3.03"/>
+	<e:Group y="18.24">
+		<e:Image source="roomIdBk_png" scaleX="1" scaleY="1"/>
+		<e:Image source="roomId_png" scaleX="1" scaleY="1" y="16.72" x="1.52"/>
+		<e:Label id="m_labRoomId" text="235200" x="103.04" y="19.64" size="26" fontFamily="SimHei"/>
+	</e:Group>
+	<e:Group x="1170.84" y="425.8">
+		<game:Button id="m_btnSpeakVoice" label="" scaleX="1" scaleY="1">
+			<game:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="chatVoice_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</game:skinName>
+		</game:Button>
+		<game:Button id="m_btnSpeakIcon" label="" scaleX="1" scaleY="1" y="97.28">
+			<game:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="chatPhoto_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</game:skinName>
+		</game:Button>
+	</e:Group>
+	<game:Button id="m_btnBegin" label="开始游戏" x="411" y="36" visible="false"/>
+</e:Skin>

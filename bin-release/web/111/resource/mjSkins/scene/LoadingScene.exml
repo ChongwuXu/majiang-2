@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoadingScene" width="1024" height="602" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15f800aabeb"/>
+	<e:Image source="playBk_png"/>
+	<e:Label id="m_labLoading" text="加载中" y="472.42" size="51" fontFamily="FangSong" textColor="0xfcfcfc" backgroundColor="0x9e0c0c" bold="true" border="false" background="false" stroke="4" strokeColor="0xce7a0c" horizontalCenter="0"/>
+</e:Skin>

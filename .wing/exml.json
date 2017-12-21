@@ -1,0 +1,95 @@
+{
+  "global": {
+    "globalAutoLayerMarkEnable": false,
+    "globalRulerEnable": true,
+    "globalAdsorbEnable": true
+  },
+  "1605d9b9080": {
+    "guideLines": [
+      {
+        "type": "v",
+        "pos": -142.424
+      },
+      {
+        "type": "v",
+        "pos": -146.97
+      },
+      {
+        "type": "v",
+        "pos": 19
+      },
+      {
+        "type": "v",
+        "pos": 180
+      },
+      {
+        "type": "v",
+        "pos": 360
+      },
+      {
+        "type": "v",
+        "pos": 540
+      },
+      {
+        "type": "v",
+        "pos": 720
+      },
+      {
+        "type": "v",
+        "pos": 900
+      },
+      {
+        "type": "v",
+        "pos": 1051
+      },
+      {
+        "type": "h",
+        "pos": -43.939
+      },
+      {
+        "type": "h",
+        "pos": -46.97
+      },
+      {
+        "type": "h",
+        "pos": -46.97
+      },
+      {
+        "type": "h",
+        "pos": -46.97
+      },
+      {
+        "type": "h",
+        "pos": -56.061
+      },
+      {
+        "type": "h",
+        "pos": -51.515
+      },
+      {
+        "type": "h",
+        "pos": -51.515
+      },
+      {
+        "type": "h",
+        "pos": -82
+      },
+      {
+        "type": "h",
+        "pos": -53.03
+      },
+      {
+        "type": "h",
+        "pos": -333.333
+      }
+    ],
+    "guideLinesEnabled": false,
+    "backgroundX": 0,
+    "backgroundY": 0,
+    "backgroundWidth": -1,
+    "backgroundHeight": -1,
+    "useBgImage": true,
+    "useBgColor": true,
+    "backgroundAlpha": 100
+  }
+}
